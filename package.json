@@ -1,8 +1,8 @@
 {
-  "name": "<%= packageName %>",
-  "description": "<%= description %>",
-  "repository": "https://github.com/<%= githubOrg %>/<%= shortName %>.git",
-  <%= publishInfo %>,
+  "name": "@brightspace-ui-labs/todo-list",
+  "description": "A lit element todo list",
+  "repository": "https://github.com/BrightspaceUILabs/todo-list.git",
+  "private": true,
   "scripts": {
     "lint": "eslint . --ext .js,.html",
     "test": "npm run lint && npm run test:local",
@@ -29,7 +29,7 @@
     "wct-mocha": "^1"
   },
   "dependencies": {
-    "@brightspace-ui/core": "^1",
+    "@brightspace-ui/core": "^1.15.1",
     "@webcomponents/webcomponentsjs": "^2",
     "lit-element": "^2"
   }
